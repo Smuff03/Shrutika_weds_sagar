@@ -1233,6 +1233,8 @@ button {
 }
 
 .closing-ganesh {
+    display: block;
+    margin: 0 auto;
     width: 84px;
     filter: drop-shadow(0 4px 12px rgba(110, 31, 47, 0.3));
     animation: float-soft 5s ease-in-out infinite;

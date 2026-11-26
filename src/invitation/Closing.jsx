@@ -17,7 +17,7 @@ export default function Closing() {
                 <p className="closing-families" data-testid="closing-families">
                     With love,
                     <br />
-                    The <strong>Telange</strong> & <strong>Khade</strong> Families
+                    The <strong>Khade</strong> & <strong>Telange</strong> Families
                 </p>
                 <p className="closing-footer">
                     {WEDDING.shortDate} · {COUPLE.groom.name.split(" ")[0]} & {COUPLE.bride.name.split(" ")[0]}

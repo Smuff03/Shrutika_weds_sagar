@@ -35,7 +35,7 @@ export default function BookCover({ onOpen }) {
                             <img src="/images/ganesh.png" alt="Ganesh Ji" className="book-ganesh" data-testid="ganesh-symbol" />
                             <p className="book-script">Wedding Invitation</p>
                             <p className="book-names">
-                                Sagar <span className="amp">&</span> Shrutika
+                                Shrutika <span className="amp">&</span> Sagar
                             </p>
                             <p className="book-date">02 · 01 · 2027</p>
                         </div>

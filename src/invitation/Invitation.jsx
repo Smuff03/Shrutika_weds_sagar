@@ -23,8 +23,8 @@ function useTypewriter(text, delay, speed = 65) {
 }
 
 export default function Invitation() {
-    const groom = useTypewriter(COUPLE.groom.name, 700, 60);
-    const bride = useTypewriter(COUPLE.bride.name, 2400, 60);
+    const bride = useTypewriter(COUPLE.bride.name, 700, 60);
+    const groom = useTypewriter(COUPLE.groom.name, 2400, 60);
     return (
         <section className="inv-page" data-testid="page-invitation">
             <div className="inv-bg" aria-hidden="true">
@@ -35,17 +35,6 @@ export default function Invitation() {
                 <img src="/images/ganesh.png" alt="Ganesh Ji" className="inv-ganesh" data-testid="ganesh-symbol-invitation" />
                 <p className="inv-eyebrow">Together with Their Families</p>
                 <div className="inv-block">
-                    <p className="inv-label">Son of</p>
-                    <p className="inv-parents">
-                        {COUPLE.groom.father} & {COUPLE.groom.mother}
-                    </p>
-                    <h1 className="inv-name" data-testid="groom-name">
-                        {groom.out}
-                        {!groom.done && <span className="type-caret" />}
-                    </h1>
-                </div>
-                <div className="inv-amp" aria-hidden="true">&</div>
-                <div className="inv-block">
                     <p className="inv-label">Daughter of</p>
                     <p className="inv-parents">
                         {COUPLE.bride.father} & {COUPLE.bride.mother}
@@ -53,6 +42,17 @@ export default function Invitation() {
                     <h1 className="inv-name" data-testid="bride-name">
                         {bride.out}
                         {!bride.done && <span className="type-caret" />}
+                    </h1>
+                </div>
+                <div className="inv-amp" aria-hidden="true">&</div>
+                <div className="inv-block">
+                    <p className="inv-label">Son of</p>
+                    <p className="inv-parents">
+                        {COUPLE.groom.father} & {COUPLE.groom.mother}
+                    </p>
+                    <h1 className="inv-name" data-testid="groom-name">
+                        {groom.out}
+                        {!groom.done && <span className="type-caret" />}
                     </h1>
                 </div>
                 <p className="inv-msg">
