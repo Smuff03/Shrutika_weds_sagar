@@ -20,7 +20,7 @@ export default function Closing() {
                     The <strong>Khade</strong> & <strong>Telange</strong> Families
                 </p>
                 <p className="closing-footer">
-                    {WEDDING.shortDate} · {COUPLE.groom.name.split(" ")[0]} & {COUPLE.bride.name.split(" ")[0]}
+                    {WEDDING.shortDate} · {COUPLE.bride.name.split(" ")[0]} & {COUPLE.groom.name.split(" ")[0]}
                 </p>
             </motion.div>
         </section>
