@@ -80,8 +80,8 @@ export const EVENTS = [
 ];
 
 export const PHOTOS = [
-    { src: "/images/photo-1.jpg", caption: "Where every love story begins" },
-    { src: "/images/photo-2.jpg", caption: "Two hearts, one sunset" },
+    { src: "/images/photo-1.jpeg", caption: "Where every love story begins" },
+    { src: "/images/photo-2.jpeg", caption: "Two hearts, one sunset" },
     { src: "/images/photo-3.jpg", caption: "The promise of forever" },
     { src: "/images/photo-4.jpg", caption: "Holding you, always" },
     { src: "/images/photo-5.jpg", caption: "Under the same golden sky" },
