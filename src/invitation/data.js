@@ -1,6 +1,6 @@
 export const COUPLE = {
-    groom: { name: "Sagar Sakharam Telange", father: "Late Sakharam Telange", mother: "Sangeeta Telange" },
-    bride: { name: "Shrutika Ganesh Khade", father: "Ganesh Suresh Khade", mother: "Pooja Ganesh Khade" },
+    groom: { name: "Sagar Telange", father: "Late Sakharam Telange", mother: "Sangeeta Telange" },
+    bride: { name: "Shrutika Khade", father: "Ganesh Khade", mother: "Pooja Khade" },
 };
 
 export const WEDDING = {
@@ -27,7 +27,7 @@ export const EVENTS = [
         dressCode: "Festive Ethnic",
         theme: "Blush & Gold",
         colour: "#D98A94",
-        img: "/images/ill_engagement.jpeg",
+        img: "/images/ill_engagement.png",
     },
     {
         id: "sangeet",
@@ -39,7 +39,7 @@ export const EVENTS = [
         dressCode: "Festive Indian Wear",
         theme: "Wine & Gold",
         colour: "#6E1F2F",
-        img: "/images/ill_sangeet.jpeg",
+        img: "/images/ill_sangeet.png",
     },
     {
         id: "haldi",
@@ -51,7 +51,7 @@ export const EVENTS = [
         dressCode: "Yellow & Ivory",
         theme: "Marigold Yellow",
         colour: "#E9B62F",
-        img: "/images/ill_haldi.jpeg",
+        img: "/images/ill_haldi.png",
     },
     {
         id: "wedding",
@@ -63,7 +63,7 @@ export const EVENTS = [
         dressCode: "Traditional Maharashtrian",
         theme: "Gold & Red",
         colour: "#B8860B",
-        img: "/images/ill_wedding.jpeg",
+        img: "/images/ill_wedding.png",
     },
     {
         id: "reception",
@@ -75,7 +75,7 @@ export const EVENTS = [
         dressCode: "Formal & Cocktail",
         theme: "Champagne Gold",
         colour: "#E8CE9C",
-        img: "/images/ill_reception.jpeg",
+        img: "/images/ill_reception.png",
     },
 ];
 
