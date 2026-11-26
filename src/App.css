@@ -1,0 +1,11 @@
+.err-fallback {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff9f1;
+    color: #6e1f2f;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+}
