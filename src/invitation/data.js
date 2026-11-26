@@ -78,15 +78,15 @@ export const EVENTS = [
 ];
 
 export const PHOTOS = [
-    { src: "/images/photo-1.jpg", caption: "Where every love story begins" },
-    { src: "/images/photo-2.jpg", caption: "Two hearts, one sunset" },
-    { src: "/images/photo-3.jpg", caption: "The promise of forever" },
-    { src: "/images/photo-4.jpg", caption: "Holding you, always" },
-    { src: "/images/photo-5.jpg", caption: "Under the same golden sky" },
-    { src: "/images/photo-6.jpg", caption: "Hand in hand, heart to heart" },
-    { src: "/images/photo-7.jpg", caption: "You are my today & all of my tomorrows" },
-    { src: "/images/photo-8.jpg", caption: "Written in the stars" },
-    { src: "/images/photo-9.jpg", caption: "And so, the adventure begins" },
+    { src: "/images/photo-1.jpeg", caption: "Where every love story begins" },
+    { src: "/images/photo-2.jpeg", caption: "Two hearts, one sunset" },
+    { src: "/images/photo-3.jpeg", caption: "The promise of forever" },
+    { src: "/images/photo-4.jpeg", caption: "Holding you, always" },
+    { src: "/images/photo-5.jpeg", caption: "Under the same golden sky" },
+    { src: "/images/photo-6.jpeg", caption: "Hand in hand, heart to heart" },
+    { src: "/images/photo-7.jpeg", caption: "You are my today & all of my tomorrows" },
+    { src: "/images/photo-8.jpeg", caption: "Written in the stars" },
+    { src: "/images/photo-9.jpeg", caption: "And so, the adventure begins" },
 ];
 
 export const reveal = {
