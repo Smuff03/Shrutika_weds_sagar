@@ -54,9 +54,7 @@ export default function Events() {
                                     <li>
                                         <Shirt size={14} /> {ev.dressCode}
                                     </li>
-                                    <li>
-                                        <Palette size={14} /> {ev.theme}
-                                    </li>
+
                                 </ul>
                                 <p className="event-note">{ev.note}</p>
                                 <a
