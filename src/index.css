@@ -1072,6 +1072,8 @@ button {
 }
 
 .reception-ganesh {
+    display: block;
+    margin: 0 auto;
     width: 74px;
     filter: drop-shadow(0 4px 14px rgba(212, 175, 55, 0.4));
     animation: float-soft 5s ease-in-out infinite;
